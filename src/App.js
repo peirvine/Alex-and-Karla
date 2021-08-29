@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss'
+import proposalJ from './images/proposal.jpg'
+import proposalW from './images/proposal.webp'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         Alex and Karla are getting Married!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <picture>
+        <source srcset={proposalW} type="image/webp" />
+        <source srcset={proposalJ} type="image/jpeg" /> 
+        <img src={proposalJ} alt="Alt Text!" />
+      </picture>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
