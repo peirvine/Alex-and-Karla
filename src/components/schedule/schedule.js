@@ -7,7 +7,7 @@ export default function Schedule() {
   const ceremony= {
     title: 'Ceremony',
     date: "Saturday, July 16th, 2022",
-    time: "4:00pm",
+    time: "TBD",
     body: "Creekside Farm Weddings & Events",
     address1: '8555 Rushseba Trail',
     address2: 'Rush City, MN 55069',
@@ -18,9 +18,9 @@ export default function Schedule() {
     title: 'Reception',
     date: "Saturday, July 16th, 2022",
     groupTime: {
-      cocktailHour: "5:00-6:00pm",
-      dinner: "6:00pm",
-      dancing: "7:30-11:30pm"
+      cocktailHour: "TBD",
+      dinner: "TBD",
+      dancing: "TBD"
     },
     body: "Creekside Farm Weddings & Events",
     address1: '8555 Rushseba Trail',
@@ -29,7 +29,7 @@ export default function Schedule() {
   }
 
   return (
-    <div id="wrapper">
+    <div className="wrapper">
       <h2>
         Schedule
       </h2>

@@ -6,7 +6,7 @@ import daddyBezos from "../../images/registry/amazon.png"
 
 export default function Registry() {
   return (
-    <div id="wrapper">
+    <div className="wrapper">
       <h2> Gift Registries </h2>
 
       <div id="images">
