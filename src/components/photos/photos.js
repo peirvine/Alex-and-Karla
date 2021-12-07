@@ -9,7 +9,7 @@ import "./photos.scss"
 export default function Photos() {
 
   return (
-    <>
+    <div className="wrapper">
       <div id="photosHeader">
         <h2>Photos</h2>
       </div>
@@ -27,6 +27,6 @@ export default function Photos() {
       <div id="photosCredit">
         <p>Photos by Veronica Barnes Photography</p>
       </div>
-    </>
+    </div>
   )
 }
