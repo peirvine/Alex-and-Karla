@@ -33,7 +33,7 @@ export default function ScheduleEvent(payload) {
             href={payload.addressURL}
             target="_blank"
             rel="noreferrer"
-            class="eventLink"
+            className="eventLink"
           >
             Map
           </a>
