@@ -10,8 +10,8 @@ export default function Registry() {
       <h2> Gift Registries </h2>
 
       <div id="images">
-        <a href="https://www.target.com/gift-registry/gift-giver?registryId=2ab7ce50-07a5-11ec-9a3b-89493f28ec2f&type=WEDDING" target="_blank" rel="noreferrer"><img src={tgt} alt="crate&barrel" /></a>
-        <a href="https://www.amazon.com" target="_blank" rel="noreferrer"><img src={daddyBezos} alt="macys" /></a>
+        <a href="https://www.target.com/gift-registry/gift-giver?registryId=2ab7ce50-07a5-11ec-9a3b-89493f28ec2f&type=WEDDING" target="_blank" rel="noreferrer"><img src={tgt} alt="target" /></a>
+        <a href="https://www.amazon.com" target="_blank" rel="noreferrer"><img src={daddyBezos} alt="amazon" /></a>
       </div>
     </div>
   )
