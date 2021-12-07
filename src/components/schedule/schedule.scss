@@ -1,5 +1,5 @@
 @media (min-width: 1000px) {
-  #wrapper {
+  .wrapper {
     width: 60%;
     margin-right: auto;
     margin-left: auto;
@@ -109,7 +109,7 @@
 }
 
 @media (max-width: 1000px) {
-  #wrapper {
+  .wrapper {
     width: 90%;
     padding: 10px;
     margin-left: auto;

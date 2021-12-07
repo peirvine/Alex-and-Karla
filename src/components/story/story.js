@@ -16,7 +16,7 @@ export default function Story () {
   }
 
   return (
-    <div id="story">
+    <div className="wrapper">
       <Split {...howWeMet}/>
       <Split {...proposal}/>
     </div>

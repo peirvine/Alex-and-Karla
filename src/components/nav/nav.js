@@ -12,18 +12,18 @@ export default function Nav () {
           <li>
             <NavLink exact to="/schedule" activeClassName="selected">Schedule</NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink exact to="/travel" activeClassName="selected">Travel</NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink exact to="/registry" activeClassName="selected">Registries</NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink exact to="/wedding-party" activeClassName="selected">Wedding Party</NavLink>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <NavLink exact to="/photos" activeClassName="selected">Photos</NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink exact to="/" activeClassName="selected">Home</NavLink>
           </li>

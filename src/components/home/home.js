@@ -1,6 +1,6 @@
 import './home.scss'
 
-import proposalJ from '../../images/proposal.jpg'
+import proposalJ from '../../images/homepage.jpg'
 import proposalW from '../../images/proposal.webp'
 
 export default function Home () {
@@ -11,8 +11,8 @@ export default function Home () {
         <h2>RSVP</h2>
       </div>
       <picture>
-        <source srcset={proposalW} type="image/webp" />
-        <source srcset={proposalJ} type="image/jpeg" /> 
+        {/* <source srcset={proposalW} type="image/webp" />
+        <source srcset={proposalJ} type="image/jpeg" />  */}
         <img id="homepic" src={proposalJ} alt="Alt Text!" />
       </picture>
     </>
