@@ -13,3 +13,11 @@ h2 {
 p {
   font-size: 15pt;
 }
+
+@media (min-width: 1000px) {
+  #wrapper {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

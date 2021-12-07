@@ -16,7 +16,7 @@ export default function Nav () {
             <NavLink exact to="/travel" activeClassName="selected">Travel</NavLink>
           </li>
           <li>
-            <NavLink exact to="/registry" activeClassName="selected">Registry</NavLink>
+            <NavLink exact to="/registry" activeClassName="selected">Registries</NavLink>
           </li>
           <li>
             <NavLink exact to="/wedding-party" activeClassName="selected">Wedding Party</NavLink>
