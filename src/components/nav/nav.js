@@ -27,9 +27,9 @@ export default function Nav () {
           <li>
             <NavLink exact to="/" activeClassName="selected">Home</NavLink>
           </li>
-          <li>
+          {/* <li>
             <a href="https://google.com" rel="noreferrer" id="rsvp" target="_blank">RSVP</a>
-          </li> 
+          </li>  */}
         </ul>
       </nav>
     </div>
