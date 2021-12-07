@@ -1,25 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
+import Nav from './components/nav/nav'
+import Home from './components/home/home'
+import Story from './components/story/story'
+import Schedule from './components/schedule/schedule'
+import Travel from './components/travel/travel'
+import Registry from './components/registry/registry'
+import WeddingParty from './components/weddingParty/weddingParty'
+import Photos from './components/photos/photos'
+import Footer from './components/footer/footer'
+
+import './App.scss'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         Alex and Karla are getting Married!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Nav />
+          <Switch>
+            <Route path="/story">
+              <Story />
+            </Route>
+            <Route path="/schedule">
+              <Schedule />
+            </Route>
+            <Route path="/travel">
+              <Travel />
+            </Route>
+            <Route path="/registry">
+              <Registry />
+            </Route>
+            <Route path="/wedding-party">
+              <WeddingParty />
+            </Route>
+            <Route path="/photos">
+              <Photos />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        <Footer />
+      </Router>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
