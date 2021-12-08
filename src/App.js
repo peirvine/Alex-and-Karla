@@ -22,29 +22,29 @@ function App() {
     <div className="App">
       <Router>
         <Nav />
-          <Switch>
-            <Route path="/story">
-              <Story />
-            </Route>
-            <Route path="/schedule">
-              <Schedule />
-            </Route>
-            <Route path="/travel">
-              <Travel />
-            </Route>
-            <Route path="/registry">
-              <Registry />
-            </Route>
-            <Route path="/wedding-party">
-              <WeddingParty />
-            </Route>
-            <Route path="/photos">
-              <Photos />
-            </Route>
-            <Route path="/">
-              <Home />
-            </Route>
-          </Switch>
+        <Switch>
+          <Route path="/story">
+            <Story />
+          </Route>
+          <Route path="/schedule">
+            <Schedule />
+          </Route>
+          <Route path="/travel">
+            <Travel />
+          </Route>
+          <Route path="/registry">
+            <Registry />
+          </Route>
+          <Route path="/wedding-party">
+            <WeddingParty />
+          </Route>
+          <Route path="/photos">
+            <Photos />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
         <Footer />
       </Router>
     </div>

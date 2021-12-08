@@ -1,12 +1,8 @@
 body {
   //background-color: #CBE2D6;
-
   background: linear-gradient(#F5FAF8, #CBE2D6);
-
   height: 100%;
-
-  min-height: 1000px;
-
+  min-height: calc(100vh - 350px);
 }
 
 h1 {
@@ -15,6 +11,10 @@ h1 {
 
 h2 {
   font-size: 20pt;
+}
+
+h3 {
+  font-size: 15pt;
 }
 
 p {
@@ -26,6 +26,14 @@ p {
     width: 60%;
     margin-right: auto;
     margin-left: auto;
+    min-height: calc(100vh - 483px);
+  }
+
+  h2 {
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 6px;
+    font-size: 48pt;
   }
 }
 

@@ -1,7 +1,13 @@
-#homepic {
-  position: fixed;
-  bottom: 10%;
-  right: 10%;
-  z-index: 10;
-  height: 80%;
+@media only screen and (min-width: 1000px) {
+  .home {
+    min-height: calc(100% - 350px);
+
+    #homepic {
+      position: fixed;
+      bottom: 10%;
+      right: 10%;
+      z-index: 10;
+      height: 80%;
+    }
+  }
 }
