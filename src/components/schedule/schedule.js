@@ -5,9 +5,14 @@ import './schedule.scss'
 
 export default function Schedule() {
   const ceremony= {
-    title: 'Ceremony',
+    title: 'Ceremony & Reception',
     date: "Saturday, July 16th, 2022",
-    time: "TBD",
+    groupTime: {
+      ceremony: "TBD",
+      cocktailHour: "TBD",
+      dinner: "TBD",
+      dancing: "TBD"
+    },
     body: "Creekside Farm Weddings & Events",
     address1: '8555 Rushseba Trail',
     address2: 'Rush City, MN 55069',
@@ -34,11 +39,11 @@ export default function Schedule() {
         Schedule
       </h2>
       <p id="subhead">
-        Here's what to expect during our wedding weekend. We can't wait to celebrate with you!
+        Here's what to expect during our wedding. We can't wait to celebrate with you!
       </p>
 
       <ScheduleEvent {...ceremony}/>
-      <ScheduleEvent {...reception}/>
+
     </div>
   )
 }

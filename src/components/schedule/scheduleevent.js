@@ -13,6 +13,7 @@ export default function ScheduleEvent(payload) {
         <div className="eventTime">
           {payload.time ? payload.time : (
             <div id="eventGroupTime">
+              <p>Ceremony: { payload.groupTime.ceremony}</p>
               <p>Cocktail Hour: { payload.groupTime.cocktailHour} </p>
               <p>Dinner: { payload.groupTime.dinner} </p>
               <p>Dancing: { payload.groupTime.dancing} </p>
@@ -22,10 +23,10 @@ export default function ScheduleEvent(payload) {
       </div>
       <div className="eventRight">
         <div className="eventLocation">
-          <h5 className="eventBody">{payload.body}</h5>
+          <h3 className="eventBody">{payload.body}</h3>
           <div className="eventAddress">
-            {payload.address1} <br />
-            {payload.address2}
+            <p>{payload.address1} <br />
+            {payload.address2}</p>
           </div>
         </div>
         <div className="eventButtons">

@@ -7,7 +7,13 @@ export default function Nav () {
       <nav>
         <ul>
           <li>
+            <NavLink exact to="/" activeClassName="selected">Home</NavLink>
+          </li>
+          <li>
             <NavLink exact to="/story" activeClassName="selected">Our Story</NavLink>
+          </li>
+          <li>
+            <NavLink exact to="/photos" activeClassName="selected">Photos</NavLink>
           </li>
           <li>
             <NavLink exact to="/schedule" activeClassName="selected">Schedule</NavLink>
@@ -21,12 +27,6 @@ export default function Nav () {
           {/* <li>
             <NavLink exact to="/wedding-party" activeClassName="selected">Wedding Party</NavLink>
           </li> */}
-          {/* <li>
-            <NavLink exact to="/photos" activeClassName="selected">Photos</NavLink>
-          </li> */}
-          <li>
-            <NavLink exact to="/" activeClassName="selected">Home</NavLink>
-          </li>
           {/* <li>
             <a href="https://google.com" rel="noreferrer" id="rsvp" target="_blank">RSVP</a>
           </li>  */}

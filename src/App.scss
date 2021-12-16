@@ -7,10 +7,17 @@ body {
 
 h1 {
   font-size: 52pt;
+  font-family: "Fancy";
+
+}
+@font-face{
+  font-family: "Fancy";
+  src: local('MyFont'), url("./Font/MyFont.ttf") format('truetype');
 }
 
 h2 {
   font-size: 20pt;
+  font-family: 'Fancy';
 }
 
 h3 {
@@ -19,6 +26,7 @@ h3 {
 
 p {
   font-size: 15pt;
+  font-style: Rozha One, serif;
 }
 
 @media (min-width: 1000px) {
@@ -32,7 +40,6 @@ p {
   h2 {
     text-align: center;
     font-weight: 400;
-    letter-spacing: 6px;
     font-size: 48pt;
   }
 }
