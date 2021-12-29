@@ -1,0 +1,20 @@
+@media only screen and (min-width: 1000px) {
+  #footer {
+    background-image: url('../../images/footernew.png');
+    height: 350px;
+    width: 100%;
+    // position: fixed;
+    // bottom: 0;
+  }
+  #mobileImage { 
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #footer {
+    img {
+      width: 100%;
+    }
+  }
+}
