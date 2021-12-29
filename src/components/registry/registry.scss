@@ -12,3 +12,14 @@
     }
   }
 }
+
+/* Mobile */
+@media only screen and (max-width: 1000px) {
+  #images {
+    text-align: center;
+    img {
+      width: 70%;
+      margin: 20px;
+    }
+  }
+}
