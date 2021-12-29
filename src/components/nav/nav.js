@@ -1,11 +1,17 @@
 import './nav.scss'
+import React, { useState } from 'react'
+import { slide as Menu } from 'react-burger-menu'
 import { NavLink, useLocation  } from "react-router-dom"
 
+import ourAdventure from '../../images/Adventure.png'
+
 export default function Nav () {
+  const [ openNav, setOpenNav ] = useState()
+
   return (
     <div id="nav">
-      <nav>
-        <ul>
+      <nav id="desktopNav">
+        <ul className={openNav ? 'open' : 'closed'}>
           <li>
             <NavLink exact to="/" activeClassName="selected">Home</NavLink>
           </li>
@@ -31,6 +37,18 @@ export default function Nav () {
             <a href="https://google.com" rel="noreferrer" id="rsvp" target="_blank">RSVP</a>
           </li>  */}
         </ul>
+      </nav>
+      <nav id="mobileNav">
+        <Menu right isOpen={openNav} onOpen={() => setOpenNav(true) }>
+          <NavLink exact to="/" activeClassName="selected" onClick={() => setOpenNav(false)}>Home</NavLink>
+          <NavLink to="/story" activeClassName="selected"onClick={() => setOpenNav(false)}>Our Story</NavLink>
+          <NavLink to="/photos" activeClassName="selected" onClick={() => setOpenNav(false)}>Photos</NavLink>
+          <NavLink to="/schedule" activeClassName="selected" onClick={() => setOpenNav(false)}>Schedule</NavLink>
+          <NavLink to="/registry" activeClassName="selected" onClick={() => setOpenNav(false)}>Registries</NavLink>
+        </Menu>
+        <div id="mobileLogo">
+          <NavLink to="/"><img src={ourAdventure} alt="Alt Text!" /></NavLink>
+        </div>
       </nav>
     </div>
   )
