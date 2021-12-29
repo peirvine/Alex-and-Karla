@@ -39,7 +39,7 @@ export default function Nav () {
         </ul>
       </nav>
       <nav id="mobileNav">
-        <Menu right isOpen={openNav} onOpen={() => setOpenNav(true) }>
+        <Menu right isOpen={openNav} onOpen={() => setOpenNav(true)} onClose={() => setOpenNav(false)}>
           <NavLink exact to="/" activeClassName="selected" onClick={() => setOpenNav(false)}>Home</NavLink>
           <NavLink to="/story" activeClassName="selected"onClick={() => setOpenNav(false)}>Our Story</NavLink>
           <NavLink to="/photos" activeClassName="selected" onClick={() => setOpenNav(false)}>Photos</NavLink>
