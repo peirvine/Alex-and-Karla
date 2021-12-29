@@ -1,6 +1,22 @@
 @media only screen and (min-width: 1000px) {
   .home {
-    min-height: calc(100% - 350px);
+    #homeText {
+      margin-left: 100px;
+      padding-top: 100px;
+      text-align: center;
+      width: 30%;
+
+      h2 {
+        font-family: "Rozha One", serif;
+        margin-bottom: 0;
+        font-size: 28pt;
+      }
+
+      h3 {
+        font-size: 25pt;
+        font-weight: 400;
+      }
+    }
 
     #homepic {
       position: fixed;
