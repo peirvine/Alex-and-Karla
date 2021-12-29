@@ -47,7 +47,7 @@ export default function Nav () {
           <NavLink to="/registry" activeClassName="selected" onClick={() => setOpenNav(false)}>Registries</NavLink>
         </Menu>
         <div id="mobileLogo">
-          <NavLink to="/"><img src={ourAdventure} alt="Alt Text!" /></NavLink>
+          <NavLink to="/"><img src={ourAdventure} alt="Alex and Karla - Our Adventure Begins" /></NavLink>
         </div>
       </nav>
     </div>
