@@ -5,7 +5,10 @@
     width: 100%;
     // position: fixed;
     // bottom: 0;
-  }  
+  }
+  #mobileImage { 
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 1000px) {

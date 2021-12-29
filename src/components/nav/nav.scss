@@ -1,51 +1,49 @@
 /* Desktop */
 @media only screen and (min-width: 1000px) {
   #nav {
-    #desktopNav{
+    #desktopNav {
       text-align: center;
       width: 100%;
       position: relative;
 
-      nav {
-        display: flex;
-        justify-content: space-between;
-        position: relative;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
 
-        ul {
-          margin-left: auto;
-          margin-right: 10%;
-          li {
-            display: inline;
+      ul {
+        margin-left: auto;
+        margin-right: 10%;
+        li {
+          display: inline;
+          padding: 5px;
+          a {
+            color: black;
             padding: 5px;
-            a {
-              color: black;
-              padding: 5px;
-              font-size: 15pt;
-              text-decoration: none;
-            }
+            font-size: 15pt;
+            text-decoration: none;
+          }
 
-            #rsvp {
-              background: #35494c;
-              padding: 5px 15px 5px 15px;
-              color: white;
-            }
+          #rsvp {
+            background: #35494c;
+            padding: 5px 15px 5px 15px;
+            color: white;
           }
         }
+      }
 
-        h1 {
-          opacity: 0;
-          display: inline;
+      h1 {
+        opacity: 0;
+        display: inline;
+        top: 0;
+        -webkit-transition: opacity 1s ease-in-out;
+        -moz-transition: opacity 1s ease-in-out;
+        -o-transition: opacity 1s ease-in-out;
+        transition: opacity 1s ease-in-out;
+        .transparent {
           top: 0;
-          -webkit-transition: opacity 1s ease-in-out;
-          -moz-transition: opacity 1s ease-in-out;
-          -o-transition: opacity 1s ease-in-out;
-          transition: opacity 1s ease-in-out;
-          .transparent {
-            top: 0;
-            display: inline;
-            opacity: 1;
-          } 
-        }
+          display: inline;
+          opacity: 1;
+        } 
       }
 
       .selected {

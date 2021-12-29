@@ -11,7 +11,7 @@ export default function Nav () {
   return (
     <div id="nav">
       <nav id="desktopNav">
-        <ul className={openNav ? 'open' : 'closed'}>
+        <ul>
           <li>
             <NavLink exact to="/" activeClassName="selected">Home</NavLink>
           </li>
