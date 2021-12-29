@@ -14,9 +14,7 @@ export default function Home () {
         <h2>Rush City, MN</h2>
         <h3>July 16, 2022</h3>
       </div>
-      <picture>
-        <img id="homepic" src={proposalJ} alt="Alt Text!" />
-      </picture>
+      <img id="homepic" src={proposalJ} alt="Alt Text!" />
     </div>
    )
 }

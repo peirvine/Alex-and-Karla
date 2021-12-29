@@ -7,3 +7,11 @@
     // bottom: 0;
   }  
 }
+
+@media only screen and (max-width: 1000px) {
+  #footer {
+    img {
+      width: 100%;
+    }
+  }
+}
