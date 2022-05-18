@@ -6,6 +6,7 @@ import abbey from "../../images/weddingParty/Abbey.png"
 import alexis from "../../images/weddingParty/Alexis.png"
 import kayla from "../../images/weddingParty/Kayla.png"
 
+import peter from "../../images/weddingParty/peter.jpg"
 
 export const weddingParty = [
   {
@@ -13,7 +14,7 @@ export const weddingParty = [
     brideImage: kayla,
     brideBlurb: "",
     groomName: "PETER IRVINE - BEST MAN",
-    groomImage: tgt,
+    groomImage: peter,
     groomBlurb: "",
   },
   {
