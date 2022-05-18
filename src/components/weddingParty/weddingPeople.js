@@ -1,11 +1,16 @@
 import tgt from "../../images/photosPage/1.gif"
 
 import elise from "../../images/weddingParty/elise.JPG"
+import mandy from "../../images/weddingParty/Mandy.png"
+import abbey from "../../images/weddingParty/Abbey.png"
+import alexis from "../../images/weddingParty/Alexis.png"
+import kayla from "../../images/weddingParty/Kayla.png"
+
 
 export const weddingParty = [
   {
     brideName: "KAYLA JOOS - MAID OF HONOR",
-    brideImage: tgt,
+    brideImage: kayla,
     brideBlurb: "Moh",
     groomName: "PETER IRVINE - BEST MAN",
     groomImage: tgt,
@@ -13,7 +18,7 @@ export const weddingParty = [
   },
   {
     brideName: "MANDY JAHNER",
-    brideImage: tgt,
+    brideImage: mandy,
     brideBlurb: "",
     groomName: "LANE SCHERBER",
     groomImage: tgt,
@@ -21,7 +26,7 @@ export const weddingParty = [
   },
   {
     brideName: "ALEXIS RANKIN",
-    brideImage: tgt,
+    brideImage: alexis,
     brideBlurb: "",
     groomName: "NATHAN FAUST",
     groomImage: tgt,
@@ -37,7 +42,7 @@ export const weddingParty = [
   },
   {
     brideName: "ABBEY OELKE",
-    brideImage: tgt,
+    brideImage: abbey,
     brideBlurb: "",
     groomName: "MATT VRCHOTA",
     groomImage: tgt,
