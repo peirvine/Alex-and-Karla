@@ -19,20 +19,6 @@ export default function Schedule() {
     addressURL: 'https://g.page/creekside-farm-weddings-events?share'
   }
 
-  const reception= {
-    title: 'Reception',
-    date: "Saturday, July 16th, 2022",
-    groupTime: {
-      cocktailHour: "TBD",
-      dinner: "TBD",
-      dancing: "TBD"
-    },
-    body: "Creekside Farm Weddings & Events",
-    address1: '8555 Rushseba Trail',
-    address2: 'Rush City, MN 55069',
-    addressURL: 'https://g.page/creekside-farm-weddings-events?share'
-  }
-
   return (
     <div className="wrapper">
       <h2>

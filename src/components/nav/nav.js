@@ -34,6 +34,9 @@ export default function Nav () {
             <NavLink exact to="/wedding-party" activeClassName="selected">Wedding Party</NavLink>
           </li>
           <li>
+            <NavLink exact to="/faq" activeClassName="selected">Q & A</NavLink>
+          </li>
+          <li>
             <a href="https://alexandkarla.anrsvp.com/" rel="noreferrer" id="rsvp" target="_blank">RSVP</a>
           </li>
         </ul>
@@ -47,6 +50,7 @@ export default function Nav () {
           <NavLink to="/lodging" activeClassName="selected" onClick={() => setOpenNav(false)}>Lodging</NavLink>
           <NavLink to="/registry" activeClassName="selected" onClick={() => setOpenNav(false)}>Registry</NavLink>
           <NavLink to="/wedding-party" activeClassName="selected" onClick={() => setOpenNav(false)}>Wedding Party</NavLink>
+          <NavLink to="/faq" activeClassName="selected" onClick={() => setOpenNav(false)}>Q & A</NavLink>
           <a href="https://alexandkarla.anrsvp.com/" rel="noreferrer" id="rsvp" target="_blank" onClick={() => setOpenNav(false)}>RSVP</a>
         </Menu>
         <div id="mobileLogo">
