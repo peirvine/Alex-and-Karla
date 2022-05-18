@@ -72,6 +72,26 @@
         font-weight: 400;
       }
 
+      #rsvpHold {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        #homeRsvp {
+          background: #35494c;
+          width: 100px;
+          height: 60px;
+          padding: 15px 30px;
+          border-radius: 10px;
+          transition: all 400ms;
+          color: white;
+          text-decoration: none;
+          font-size: 20pt;
+
+          &:hover {
+            background: #6e9499;
+          }
+        }
+      }
+
       #ouradventure {
         display: none;
       }
