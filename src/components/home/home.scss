@@ -16,6 +16,24 @@
         font-size: 25pt;
         font-weight: 400;
       }
+      #rsvpHold {
+        margin-top: 60px;
+        #homeRsvp {
+          background: #35494c;
+          width: 100px;
+          height: 60px;
+          padding: 20px 40px;
+          border-radius: 10px;
+          transition: all 400ms;
+          color: white;
+          text-decoration: none;
+          font-size: 25pt;
+
+          &:hover {
+            background: #6e9499;
+          }
+        }
+      }
     }
 
     #homepic {
@@ -39,7 +57,7 @@
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    
+
     #homeText {
       text-align: center;
 
