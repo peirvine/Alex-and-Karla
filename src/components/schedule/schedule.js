@@ -8,10 +8,10 @@ export default function Schedule() {
     title: 'Ceremony & Reception',
     date: "Saturday, July 16th, 2022",
     groupTime: {
-      ceremony: "TBD",
-      cocktailHour: "TBD",
-      dinner: "TBD",
-      dancing: "TBD"
+      ceremony: "4:00 PM",
+      cocktailHour: "4:30 PM",
+      dinner: "5:30 PM",
+      dancing: "7 PM"
     },
     body: "Creekside Farm Weddings & Events",
     address1: '8555 Rushseba Trail',
