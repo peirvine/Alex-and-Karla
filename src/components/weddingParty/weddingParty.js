@@ -10,11 +10,11 @@ export default function WeddingParty () {
     <div className="wrapper">
       <h2>
         Wedding Party
+      </h2>
         {weddingParty.map(x => (
           <WeddingSplit {...x} />
         ))}
 
-      </h2>
     </div>
   )
 }
