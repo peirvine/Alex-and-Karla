@@ -24,9 +24,9 @@ export default function Nav () {
           <li>
             <NavLink exact to="/schedule" activeClassName="selected">Schedule</NavLink>
           </li>
-          {/* <li>
-            <NavLink exact to="/travel" activeClassName="selected">Travel</NavLink>
-          </li> */}
+          <li>
+            <NavLink exact to="/lodging" activeClassName="selected">Lodging</NavLink>
+          </li>
           <li>
             <NavLink exact to="/registry" activeClassName="selected">Registry</NavLink>
           </li>
@@ -34,7 +34,7 @@ export default function Nav () {
             <NavLink exact to="/wedding-party" activeClassName="selected">Wedding Party</NavLink>
           </li>
           <li>
-            <a href="https://google.com" rel="noreferrer" id="rsvp" target="_blank">RSVP</a>
+            <a href="https://alexandkarla.anrsvp.com/" rel="noreferrer" id="rsvp" target="_blank">RSVP</a>
           </li>
         </ul>
       </nav>
@@ -44,8 +44,9 @@ export default function Nav () {
           <NavLink to="/story" activeClassName="selected"onClick={() => setOpenNav(false)}>Our Story</NavLink>
           <NavLink to="/photos" activeClassName="selected" onClick={() => setOpenNav(false)}>Photos</NavLink>
           <NavLink to="/schedule" activeClassName="selected" onClick={() => setOpenNav(false)}>Schedule</NavLink>
+          <NavLink to="/lodging" activeClassName="selected" onClick={() => setOpenNav(false)}>Lodging</NavLink>
           <NavLink to="/registry" activeClassName="selected" onClick={() => setOpenNav(false)}>Registries</NavLink>
-          <a href="https://google.com" rel="noreferrer" id="rsvp" target="_blank" onClick={() => setOpenNav(false)}>RSVP</a>
+          <a href="https://alexandkarla.anrsvp.com/" rel="noreferrer" id="rsvp" target="_blank" onClick={() => setOpenNav(false)}>RSVP</a>
         </Menu>
         <div id="mobileLogo">
           <NavLink to="/"><img src={ourAdventure} alt="Alex and Karla - Our Adventure Begins" /></NavLink>

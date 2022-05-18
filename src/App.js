@@ -29,7 +29,7 @@ function App() {
           <Route path="/schedule">
             <Schedule />
           </Route>
-          <Route path="/travel">
+          <Route path="/lodging">
             <Travel />
           </Route>
           <Route path="/registry">
