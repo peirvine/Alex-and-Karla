@@ -1,4 +1,4 @@
-import tgt from "../../images/photosPage/1.gif"
+import tgt from "../../images/weddingParty/default.jpeg"
 
 import elise from "../../images/weddingParty/elise.JPG"
 import mandy from "../../images/weddingParty/Mandy.png"
@@ -11,10 +11,10 @@ export const weddingParty = [
   {
     brideName: "KAYLA JOOS - MAID OF HONOR",
     brideImage: kayla,
-    brideBlurb: "Moh",
+    brideBlurb: "",
     groomName: "PETER IRVINE - BEST MAN",
     groomImage: tgt,
-    groomBlurb: "Alex is pretty dope",
+    groomBlurb: "",
   },
   {
     brideName: "MANDY JAHNER",
