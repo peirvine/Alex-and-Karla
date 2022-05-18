@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { slide as Menu } from 'react-burger-menu'
 import { NavLink } from "react-router-dom"
 
-import ourAdventure from '../../images/Adventure.png'
+import ourAdventure from '../../images/NewFontOurAdventure.png'
 
 export default function Nav () {
   const [ openNav, setOpenNav ] = useState()

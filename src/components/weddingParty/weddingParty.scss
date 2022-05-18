@@ -76,6 +76,23 @@ p {
 }
 
 @media (max-width: 1000px) {
+  h3 {
+    font-family: "Rozha One", serif;
+    margin: 40px 0px 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 6px;
+  }
+  p {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+
   .weddingSplit {
     text-align: center;
     padding-bottom: 50px;
@@ -83,11 +100,10 @@ p {
 
     .bride {
       text-align: center;
-      height: 100%;
 
       .brideImage {
         img {
-          width: 100%;
+          width: 50%;
         }
       }
 
@@ -96,13 +112,11 @@ p {
     }
 
     .groom {
-      float: right;
       text-align: center;
-      height: 100%;
 
       .groomImage {
         img {
-          width: 100%;
+          width: 50%;
         }
       }
 
