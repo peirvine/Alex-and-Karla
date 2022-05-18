@@ -1,7 +1,7 @@
 import './home.scss'
 
 import proposalJ from '../../images/homepage.jpg'
-import ourAdventure from '../../images/Adventure.png'
+import ourAdventure from '../../images/NewFontOurAdventure.png'
 
 export default function Home () {
   return ( 
