@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { slide as Menu } from 'react-burger-menu'
 import { NavLink, useLocation  } from "react-router-dom"
 
-import ourAdventure from '../../images/Adventure.png'
+import ourAdventure from '../../images/NewFontOurAdventure.png'
 
 export default function Nav () {
   const [ openNav, setOpenNav ] = useState()
@@ -46,6 +46,7 @@ export default function Nav () {
           <NavLink to="/schedule" activeClassName="selected" onClick={() => setOpenNav(false)}>Schedule</NavLink>
           <NavLink to="/lodging" activeClassName="selected" onClick={() => setOpenNav(false)}>Lodging</NavLink>
           <NavLink to="/registry" activeClassName="selected" onClick={() => setOpenNav(false)}>Registries</NavLink>
+          <NavLink to="/wedding-party" activeClassName="selected" onClick={() => setOpenNav(false)}>Wedding Party</NavLink>
           <a href="https://alexandkarla.anrsvp.com/" rel="noreferrer" id="rsvp" target="_blank" onClick={() => setOpenNav(false)}>RSVP</a>
         </Menu>
         <div id="mobileLogo">
