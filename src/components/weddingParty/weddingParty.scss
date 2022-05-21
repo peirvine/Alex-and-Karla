@@ -1,0 +1,127 @@
+h3 {
+  font-family: "Rozha One", serif;
+}
+
+p {
+  font-family: "Nanum Myeongjo", serif;
+}
+
+@media (min-width: 1367px) {
+  h3 {
+    font-family: "Rozha One", serif;
+    margin: 40px 0px 20px;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: 500;
+    letter-spacing: 6px;
+  }
+
+  p {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  .weddingSplit {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-column-gap: 1rem;
+    text-align: center;
+    border-bottom: solid 2px #a4b1b8;
+    padding-bottom: 50px;
+    margin-top: 50px;
+
+    .bride {
+      float: left;
+      text-align: center;
+      height: 100%;
+
+      .brideImage {
+        img {
+          width: 100%;
+        }
+        width: 40%;
+        float: right;
+      }
+
+      .brideBody {
+        width: 57%;
+        float: left;
+        text-align: right;
+      }
+    }
+
+    .groom {
+      float: right;
+      text-align: center;
+      height: 100%;
+
+      .groomImage {
+        img {
+          width: 100%;
+        }
+        width: 40%;
+        float: left;
+      }
+
+      .groomBody {
+        width: 57%;
+        float: right;
+        text-align: left;
+      }
+    }
+  }
+}
+
+@media (max-width: 1366px) {
+  h3 {
+    font-family: "Rozha One", serif;
+    margin: 40px 0px 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 6px;
+  }
+  p {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+
+  .weddingSplit {
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 50px;
+
+    .bride {
+      text-align: center;
+
+      .brideImage {
+        img {
+          width: 50%;
+        }
+      }
+
+      .brideBody {
+      }
+    }
+
+    .groom {
+      text-align: center;
+
+      .groomImage {
+        img {
+          width: 50%;
+        }
+      }
+
+      .groomBody {
+      }
+    }
+  }
+}

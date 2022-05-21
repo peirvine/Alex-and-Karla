@@ -1,0 +1,35 @@
+@media (min-width: 1000px) {
+    #images {
+      text-align: center;
+      img {
+        height: 250px;
+        margin: 20px;
+        transition: transform .2s; /* Animation */
+      }
+      p {
+        margin-bottom: 0;
+      }
+  
+      img:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    h2 {
+      font-size: 30pt;
+    }
+    p {
+        margin-bottom: 0;
+      }
+  
+    #images {
+      text-align: center;
+  
+      img {
+        width: 70%;
+        margin: 20px;
+      }
+    }
+  }

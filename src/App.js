@@ -13,6 +13,7 @@ import Travel from './components/travel/travel'
 import Registry from './components/registry/registry'
 import WeddingParty from './components/weddingParty/weddingParty'
 import Photos from './components/photos/photos'
+import Faq from './components/faq/faq'
 import Footer from './components/footer/footer'
 
 import './App.scss'
@@ -29,7 +30,7 @@ function App() {
           <Route path="/schedule">
             <Schedule />
           </Route>
-          <Route path="/travel">
+          <Route path="/lodging">
             <Travel />
           </Route>
           <Route path="/registry">
@@ -37,6 +38,9 @@ function App() {
           </Route>
           <Route path="/wedding-party">
             <WeddingParty />
+          </Route>
+          <Route path="/faq">
+            <Faq />
           </Route>
           <Route path="/photos">
             <Photos />

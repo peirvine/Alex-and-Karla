@@ -1,9 +1,9 @@
 import './nav.scss'
 import React, { useState } from 'react'
 import { slide as Menu } from 'react-burger-menu'
-import { NavLink, useLocation  } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
-import ourAdventure from '../../images/Adventure.png'
+import ourAdventure from '../../images/NewFontOurAdventure.png'
 
 export default function Nav () {
   const [ openNav, setOpenNav ] = useState()
@@ -24,18 +24,21 @@ export default function Nav () {
           <li>
             <NavLink exact to="/schedule" activeClassName="selected">Schedule</NavLink>
           </li>
-          {/* <li>
-            <NavLink exact to="/travel" activeClassName="selected">Travel</NavLink>
-          </li> */}
           <li>
-            <NavLink exact to="/registry" activeClassName="selected">Registries</NavLink>
+            <NavLink exact to="/lodging" activeClassName="selected">Lodging</NavLink>
           </li>
-          {/* <li>
+          <li>
+            <NavLink exact to="/registry" activeClassName="selected">Registry</NavLink>
+          </li>
+          <li>
             <NavLink exact to="/wedding-party" activeClassName="selected">Wedding Party</NavLink>
-          </li> */}
-          {/* <li>
-            <a href="https://google.com" rel="noreferrer" id="rsvp" target="_blank">RSVP</a>
-          </li>  */}
+          </li>
+          <li>
+            <NavLink exact to="/faq" activeClassName="selected">Q & A</NavLink>
+          </li>
+          <li>
+            <a href="https://alexandkarla.anrsvp.com/" rel="noreferrer" id="rsvp" target="_blank">RSVP</a>
+          </li>
         </ul>
       </nav>
       <nav id="mobileNav">
@@ -44,7 +47,11 @@ export default function Nav () {
           <NavLink to="/story" activeClassName="selected"onClick={() => setOpenNav(false)}>Our Story</NavLink>
           <NavLink to="/photos" activeClassName="selected" onClick={() => setOpenNav(false)}>Photos</NavLink>
           <NavLink to="/schedule" activeClassName="selected" onClick={() => setOpenNav(false)}>Schedule</NavLink>
-          <NavLink to="/registry" activeClassName="selected" onClick={() => setOpenNav(false)}>Registries</NavLink>
+          <NavLink to="/lodging" activeClassName="selected" onClick={() => setOpenNav(false)}>Lodging</NavLink>
+          <NavLink to="/registry" activeClassName="selected" onClick={() => setOpenNav(false)}>Registry</NavLink>
+          <NavLink to="/wedding-party" activeClassName="selected" onClick={() => setOpenNav(false)}>Wedding Party</NavLink>
+          <NavLink to="/faq" activeClassName="selected" onClick={() => setOpenNav(false)}>Q & A</NavLink>
+          <a href="https://alexandkarla.anrsvp.com/" rel="noreferrer" id="rsvp" target="_blank" onClick={() => setOpenNav(false)}>RSVP</a>
         </Menu>
         <div id="mobileLogo">
           <NavLink to="/"><img src={ourAdventure} alt="Alex and Karla - Our Adventure Begins" /></NavLink>
